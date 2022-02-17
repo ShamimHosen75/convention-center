@@ -1,0 +1,150 @@
+/*-------------Google Font Link--------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ------ Button Styles -------*/
+.banner-btn{
+border: 2px solid #fff;
+transition: .5s;
+color: #3F87F5 !important;
+}
+.banner-btn:hover{
+background-color: transparent !important;
+color: #fff !important;
+}
+/*-------------Images Slider Styles  ----------*/
+.carousel-item img{
+ width: 1440px;
+ height: 584px;
+}
+.card{
+    border-radius:20px;
+    transition: .5s;
+}
+.card h1{
+    font-size: 30px;
+     font-weight: 600; 
+     color: #231D4F;
+}
+.card p{
+    font-size: 15px; 
+    color: #848199;
+}
+.card a{
+    background-color: #3F87F5 !important;
+}
+
+.active-card{
+    background-color:  #3F87F5;
+    /* transform: scale(1.1); */
+    margin: 0 5px;
+
+}
+/* ---------------Badge Styles------------- */
+.badge{
+background-color: red;
+position: absolute; 
+top: -20px;
+left: -15px;
+}
+
+
+/*--------------- Bonus Section Custom Styles  ------------*/
+.cover {
+    width: 1400px;
+    height: 484px;
+    background: url(images/center.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    position: relative;
+}
+
+.cover .content {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 15vmin;
+}
+
+.cover .content>h1 {
+    font-family: var(--Patua);
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+
+.cover .content>p {
+    font-family: Poppins;
+    font-size: 2vmin;
+    color: #e5e5e5;
+
+}
+
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 1em;
+    box-shadow: 1px 2px 50px 0px rgba(216, 198, 198, 0.349);
+}
+
+.numbers {
+    margin-top: -15vmin;
+}
+
+.numbers .rect h1 {
+    font-size: 5rem;
+    color: #231D4F;
+}
+
+/*----- Custom Client Section Styles Started --------------*/
+.client-section .container h1 {
+    font-size: 6vmin;
+    padding-top: 14vmin;
+    }
+    
+    .client-section .team {
+    padding: 10vmin 4min;
+    }
+    
+    .client-section .card {
+    width: 22rem;
+    margin-top: 5vmin;
+    }
+    
+    .client-section .card .card-text {
+    padding: 0.5em;
+    }
+    
+    .client-section .card .card-body{
+    font-size: 1.5em;
+    }
+    
+    .client-section .carousel-item {
+    padding-left: 3rem;
+    }
+    
+    .border-radius {
+    border-radius: 340px;
+    width: 60%;
+    }
+    /*----- Custom Client Section Styles Ended --------------*/
+
+ /*------------- Footer Custom Styles --------- */
+.footer-bg{
+    background-color: #0B0D17;
+}
+.color-offwhite{
+    color: #E0E0E0;
+}
+.list{
+    list-style: none;
+}
